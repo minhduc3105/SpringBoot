@@ -1,9 +1,7 @@
 package org.example.springboot.model;
 
-import lombok.*;
+
 import jakarta.persistence.*;
-@NoArgsConstructor
-@AllArgsConstructor
 @Entity
 @Table(name = "courses")
 public class Course {
